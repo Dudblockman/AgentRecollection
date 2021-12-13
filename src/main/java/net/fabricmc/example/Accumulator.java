@@ -10,7 +10,8 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.RaycastContext;
 import net.minecraft.world.World;
 
-import java.util.HashMap;
+import java.util.*;
+import java.util.function.Predicate;
 
 public class Accumulator {
     HashMap<BlockPos, BlockEntry> observedBlocks = new HashMap<>();
@@ -73,6 +74,16 @@ public class Accumulator {
                 observedBlocks.put(key, new BlockEntry(state, timestamp));
             }
         }
+    }
+
+    public List<BlockPos> getMatchingBlocks(Predicate<BlockState> predicate) {
+        ArrayList<BlockPos> positions = new ArrayList<>();
+        for (Map.Entry<BlockPos, BlockEntry> element : observedBlocks.entrySet()) {
+            if (predicate.test(element.getValue().state)) {
+                positions.add(element.getKey());
+            }
+        }
+        return positions;
     }
 
     public static class BlockEntry {
