@@ -18,11 +18,27 @@ This project is an extension of other research into artificial intelligence, an 
 
 ## Features:
 
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921212675759947786/2021-12-16_18.29.15.png">
+
 This system can recognize parts of its environment that are within the agent's field of view, which can be customized from a full 360 degree scan (for ease of use and minimizing camera angle management) to a more restrictive angle allowing you to simulate a more human-like agent.
+
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921212353117315082/2021-12-16_18.27.11.png">
 
 The system can account for the angle between the object and the look vector of the agent, allowing it to assign values based on how in-focus the object is, simulating a 'fovea' for the agent.
 
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921212353738055740/2021-12-16_18.27.58.png">
+
 The system also records timestamps of when things are observed, allowing the agent to apply a level of fuzziness to its recollection or reason about things that may have changed since it was last observed while the agent wasn't looking. Fortunately in the case of Minecraft, things infrequently change without the direct involvement of the player.
+
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921212353738055740/2021-12-16_18.27.58.png">
+
+This system can be used to remember key blocks in a location that may represent the agent's dwelling
+
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921213229462601788/2021-12-16_18.32.13.png">
+
+Or it may be used to remember spotting rare blocks within the world they may wish to refer to later, such as ores spotted when exploring a cave system.
+
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921213814056304660/2021-12-16_18.34.31.png">
 
 Video: https://cdn.discordapp.com/attachments/552532614062276639/920090486901989377/Loganpeterson-1.mp4
 
