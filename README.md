@@ -24,6 +24,8 @@ The system can account for the angle between the object and the look vector of t
 
 The system also records timestamps of when things are observed, allowing the agent to apply a level of fuzziness to its recollection or reason about things that may have changed since it was last observed while the agent wasn't looking. Fortunately in the case of Minecraft, things infrequently change without the direct involvement of the player.
 
+Video: https://cdn.discordapp.com/attachments/552532614062276639/920090486901989377/Loganpeterson-1.mp4
+
 ## About:
 
 Developed independently by Logan Peterson
