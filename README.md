@@ -1,5 +1,7 @@
 # Virtual Agent Visual Recollection Systen
 
+<img src="https://cdn.discordapp.com/attachments/268437195176673280/921216905526779944/Logo.png">
+
 Logan Peterson
 
 Release: Dec 13, 2021
@@ -25,8 +27,6 @@ This system can recognize parts of its environment that are within the agent's f
 <img src="https://cdn.discordapp.com/attachments/268437195176673280/921212353117315082/2021-12-16_18.27.11.png">
 
 The system can account for the angle between the object and the look vector of the agent, allowing it to assign values based on how in-focus the object is, simulating a 'fovea' for the agent.
-
-<img src="https://cdn.discordapp.com/attachments/268437195176673280/921212353738055740/2021-12-16_18.27.58.png">
 
 The system also records timestamps of when things are observed, allowing the agent to apply a level of fuzziness to its recollection or reason about things that may have changed since it was last observed while the agent wasn't looking. Fortunately in the case of Minecraft, things infrequently change without the direct involvement of the player.
 
