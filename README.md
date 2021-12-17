@@ -16,7 +16,7 @@ This project is a memory system to assist in the recollection of objects viewed 
 
 ## History:
 
-This project is an extension of other research into artificial intelligence, an attempt to utlize Virtual Reality techniques to augment and improve our approach to the problems we currently face in our system.
+This project is an extension of other research into artificial intelligence, an attempt to utlize Virtual Reality techniques to augment and improve our approach to the problems we currently face in our system. This project was chosen because our current techniques utilized full knowledge of the simulation and would result in an artificial intelligence that may become too reliant on such omipotence to achieve its goals. 
 
 ## Features:
 
